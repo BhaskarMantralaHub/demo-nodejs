@@ -51,8 +51,12 @@ It constantly keeps track of the status of your asynchronous tasks (eg. the code
 
 
 ********************
+**ESLint Config**
+npm init @eslint/config
 
-**Install ESLint**
+(OR)
+
+**Install ESLint Manually**
 
 `npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
 
