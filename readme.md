@@ -38,9 +38,16 @@ https://www.jetbrains.com/help/webstorm/running-and-debugging-typescript.html#ws
 
 **Event Loop**
 
-Event loop polls and checks for any items in callback queue and move them to call stack for execution
+Event loop polls and checks for any items in callback queue and move them to call stack for execution.
+
+It constantly keeps track of the status of your asynchronous tasks (eg. the code in your callback functions) and moves them back to the execution queue when they’re completed. It operates in the same main thread.
 
 ![Event Loop.png](resources/event-loop.png)
+
+**Worker Pool** - Auxiliary synchronous threads in the system kernel that Node.js can utilize for extensive disk and network-based async operations
+
+
+![node-js-arch.png](resources/nodejs-architeture.png)
 
 
 
