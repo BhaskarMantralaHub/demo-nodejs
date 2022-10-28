@@ -29,11 +29,18 @@ Version 4.8.4
 4. Install ts-node `npm install ts-node --save-dev`
 
 ***********************
-Run Configuration - Webstorm
+**Run Configuration - Webstorm**
+
 https://www.jetbrains.com/help/webstorm/running-and-debugging-typescript.html#ws_ts_run_debug_server_side
 
 ![run-configuration.png](resources/run-configuration.png)
 ***********************
+
+**Event Loop**
+
+Event loop polls and checks for any items in callback queue and move them to call stack for execution
+
+![Event Loop.png](resources/event-loop.png)
 
 
 
