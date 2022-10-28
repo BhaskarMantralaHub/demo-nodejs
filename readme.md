@@ -1,4 +1,8 @@
- ~ % brew install node
+More details on Nodejs
+
+https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development
+
+~ % brew install node
 
  ~ % tsc -v
 Version 4.8.4
