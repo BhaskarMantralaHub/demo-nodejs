@@ -1,2 +1,3 @@
-const fruit = "Apple";
-console.log(fruit);
+import { USER } from "./config/base.config";
+
+console.log(USER);
