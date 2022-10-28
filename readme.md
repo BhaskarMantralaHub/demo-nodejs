@@ -1,8 +1,9 @@
-bhaskarmantrala@Bhaskar-Macbook-Pro ~ % brew install node
+ ~ % brew install node
 
-bhaskarmantrala@Bhaskar-Macbook-Pro ~ % tsc -v
+ ~ % tsc -v
 Version 4.8.4
-bhaskarmantrala@Bhaskar-Macbook-Pro ~ % npm -v                        
+
+ ~ % npm -v                        
 8.19.2
 
 `npm will be installed along nodejs`
