@@ -26,4 +26,13 @@ Version 4.8.4
 1. Create a node-js project from Webstorm
 2. npm --init => Creates package.json and package-lock.json
 3. Install typescript  `npm install typescript --save-dev` => Creates tsconfig.json
+4. Install ts-node `npm install ts-node --save-dev`
+
+***********************
+Run Configuration - Webstorm
+
+![run-configuration.png](resources/run-configuration.png)
+***********************
+
+
 
