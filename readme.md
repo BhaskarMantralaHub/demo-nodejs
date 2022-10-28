@@ -50,4 +50,22 @@ It constantly keeps track of the status of your asynchronous tasks (eg. the code
 ![node-js-arch.png](resources/nodejs-architeture.png)
 
 
+********************
+
+**Install ESLint**
+
+`npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
+
+* eslint: ESLint core library
+* @typescript-eslint/parser: parser that allows ESLint to understand TypeScript code
+* @typescript-eslint/eslint-plugin: plugin with a set of recommended TypeScript rules
+
+
+*******************
+
+**Install Prettier**
+
+`npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
+
+
 
