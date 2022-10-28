@@ -1,3 +1,12 @@
+Node.js is essentially a Javascript runtime built on top of Chrome’s V8 Javascript engine. 
+
+Single-Threaded Event Loop Architecture in Node.js
+
+https://www.youtube.com/watch?v=xckH5s3UuX4
+
+Following are not part of Javascript, but browser web api
+![web-api.png](resources/web-api.png)
+
 More details on Nodejs
 
 https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development
