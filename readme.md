@@ -30,6 +30,7 @@ Version 4.8.4
 
 ***********************
 Run Configuration - Webstorm
+https://www.jetbrains.com/help/webstorm/running-and-debugging-typescript.html#ws_ts_run_debug_server_side
 
 ![run-configuration.png](resources/run-configuration.png)
 ***********************
