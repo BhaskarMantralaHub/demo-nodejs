@@ -71,5 +71,16 @@ npm init @eslint/config
 
 `npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
 
+*******************
+
+**Specify Node Versions with .nvmrc**
+
+`node -v > .nvmrc` => Is specifying that Node.js <VERSION> should be used
+
+`nvm use` => To download, install, and switch to that version
+
+`nvm install` => Call would then install dependencies in line with that version.
+
+
 
 
