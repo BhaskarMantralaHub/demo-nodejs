@@ -30,6 +30,6 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts}": "npm run lint"
+    "src/**/*.{ts}": "npm lint"
   }
 }
