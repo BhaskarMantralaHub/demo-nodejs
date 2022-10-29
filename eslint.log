@@ -1,6 +1,6 @@
 
 /Users/bhaskarmantrala/WebstormProjects/demo-nodejs/src/first-script.ts
-  5:7  error  'obj12011' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  5:7  error  'obj120114' is assigned a value but never used  @typescript-eslint/no-unused-vars
 
 ✖ 1 problem (1 error, 0 warnings)
 
