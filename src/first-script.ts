@@ -1,3 +1,3 @@
 import { USER } from './config/base.config';
 
-console.log(USER);
+console.log('Hello ', USER);
