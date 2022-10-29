@@ -1,4 +1,4 @@
 import { USER } from './config/base.config';
 
 console.log('Hello ', USER);
-const a = 10;
+console.log(`Hello ${USER}`);
