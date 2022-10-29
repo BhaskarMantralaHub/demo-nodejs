@@ -73,7 +73,11 @@ npm init @eslint/config
 
 *******************
 
-**Specify Node Versions with .nvmrc**
+**Specify Node Versions with .nvmrc (Node Version Manager)**
+
+Install Node Version Manager :
+https://github.com/nvm-sh/nvm
+
 
 `node -v > .nvmrc` => Is specifying that Node.js <VERSION> should be used
 
