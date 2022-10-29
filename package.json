@@ -28,5 +28,8 @@
     "hooks": {
       "pre-commit": "npm run lint"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{ts}": "npm run lint"
   }
 }
