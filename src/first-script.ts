@@ -2,4 +2,4 @@ import { USER } from './config/base.config';
 
 console.log(USER);
 
-const obj13 = 'Hello';
+const obj12 = 'Hello';
