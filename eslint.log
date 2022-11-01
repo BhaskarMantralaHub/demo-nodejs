@@ -1,5 +1,5 @@
 
-/Users/bhaskarmantrala/WebstormProjects/demo-nodejs/src/first-script.ts
+/Users/bhaskarmantrala/WebstormProjects/demo-nodejs/src/min-and-max-number.ts
   5:7   error  'obj120114' is assigned a value but never used  @typescript-eslint/no-unused-vars
   7:10  error  'hello' is defined but never used               @typescript-eslint/no-unused-vars
   7:18  error  Unexpected empty function 'hello'               @typescript-eslint/no-empty-function
