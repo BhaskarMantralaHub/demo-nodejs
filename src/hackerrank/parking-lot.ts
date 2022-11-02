@@ -1,6 +1,6 @@
 class ParkingLot {
   private readonly parkingLotSize: number;
-  private parkingLots: string[];
+  parkingLots: string[] = [];
   private readonly EMPTY = '';
 
   constructor(size: number) {
