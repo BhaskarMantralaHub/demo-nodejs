@@ -1,4 +1,4 @@
-class ParkingLot {
+export class ParkingLot {
   private readonly parkingLotSize: number;
   parkingLots: string[] = [];
   private readonly EMPTY = '';
@@ -74,16 +74,16 @@ class ParkingLot {
   }
 }
 
-const parkingLot = new ParkingLot(5);
-parkingLot.parkCar('Bhaskar Hyundai'); //New car 0
-parkingLot.parkCar('Mounika Honda'); //New car 1
-parkingLot.parkCar('Vedanth Toyota'); //New car 2
-parkingLot.parkCar('Mounika Honda'); //Already parked
-
-parkingLot.parkCar('Bhaskar Hyundai'); // Already parked
-parkingLot.removeCar('Vedanth Toyota'); //Removed car from index 2
-parkingLot.parkCar('Bhaskar Hyundai'); // Already Parked
-parkingLot.parkCar('Gayathri Mercedes'); // New car 2
-parkingLot.removeCar('Vedanth Toyota'); //No car parked to be removed
-parkingLot.parkCar('Vedanth Toyota'); //New car 3
-parkingLot.printParkingLotsInfo();
+export const parkingLot = new ParkingLot(5);
+// parkingLot.parkCar('Bhaskar Hyundai'); //New car 0
+// parkingLot.parkCar('Mounika Honda'); //New car 1
+// parkingLot.parkCar('Vedanth Toyota'); //New car 2
+// parkingLot.parkCar('Mounika Honda'); //Already parked
+//
+// parkingLot.parkCar('Bhaskar Hyundai'); // Already parked
+// parkingLot.removeCar('Vedanth Toyota'); //Removed car from index 2
+// parkingLot.parkCar('Bhaskar Hyundai'); // Already Parked
+// parkingLot.parkCar('Gayathri Mercedes'); // New car 2
+// parkingLot.removeCar('Vedanth Toyota'); //No car parked to be removed
+// parkingLot.parkCar('Vedanth Toyota'); //New car 3
+// parkingLot.printParkingLotsInfo();
