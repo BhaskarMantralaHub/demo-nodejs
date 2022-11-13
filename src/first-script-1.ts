@@ -1,23 +1,3 @@
-interface User {
-  name: string;
-  age: string;
-}
+import * as utils from '@bhaskarmantralahub/npm-publish-package';
 
-function printProperties(users: User[]) {
-  users.forEach((user) => console.log(getUserPropertiesAsString(user)));
-}
-
-function getUserPropertiesAsString(user: User) {
-  return `${user.name} ${user.age}`;
-}
-
-printProperties([
-  {
-    name: 'Bhaskar',
-    age: '31',
-  },
-  {
-    name: 'Mounika',
-    age: '28',
-  },
-]);
+console.log(utils.StringUtils.convertCase('hello'));
