@@ -19,14 +19,13 @@ const nameObj: { [k in CustomType]: string } = {
 
 console.log(typeof nameObj);
 
-
 //*************************************************
 
 const LoanType = {
-    upl: 'UNSECURED_PERSONAL_LOAN',
-    spl: 'SECURED_PERSONAL_LOAN'
+  upl: 'UNSECURED_PERSONAL_LOAN',
+  spl: 'SECURED_PERSONAL_LOAN',
 } as const;
 
-type TLoanTypeShorter = keyof typeof LoanType; //keys
+export type TLoanTypeShorter = keyof typeof LoanType; //keys
 
-type TLoanTypeFull = typeof LoanType[keyof typeof LoanType]; //values
+export type TLoanTypeFull = typeof LoanType[keyof typeof LoanType]; //values

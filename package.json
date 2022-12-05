@@ -27,5 +27,8 @@
   "lint-staged": {
     "*.ts": "npx tsc --noEmit",
     "*.{ts}": "npx eslint --fix"
+  },
+  "dependencies": {
+    "typedoc": "^0.23.21"
   }
 }
