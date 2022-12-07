@@ -11,6 +11,11 @@ const getToDos = async (id: number): Promise<User> => {
   ).json()) as User;
 };
 
+/**
+ * Array method with map, async-await and PromiseAll
+ * @param idArr - number array
+ * @return Concatenated array
+ */
 async function todoFuncWithPromiseAll(idArr: number[]) {
   const start = performance.now();
   const response = await Promise.all(

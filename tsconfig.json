@@ -105,5 +105,28 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true
     /* Skip type checking all .d.ts files. */
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/*.ts", "src/**/*.ts"],
+    "out": "docs",
+    "name": "demo-nodejs-documentation",
+    "excludeNotDocumented": false,
+    "readme": "none", //to disable readme,
+    "searchInComments": true,
+    "sidebarLinks": {
+      "Project Repo": "https://github.com/BhaskarMantralaHub/demo-nodejs"
+    },
+    "sort": ["static-first", "instance-first","alphabetical"],
+    "skipErrorChecking": true,
+    "visibilityFilters": {
+      "protected": true,
+      "private": true,
+      "inherited": true,
+      "external": false,
+      "@alpha": false,
+      "@beta": false
+    },
+    "requiredToBeDocumented": ["Enum", "Class", "Interface"]
   }
 }
+
