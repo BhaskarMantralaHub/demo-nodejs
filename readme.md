@@ -98,5 +98,5 @@ https://github.com/nvm-sh/nvm
 ## Jetbrains avoid finding JS extension files while working with Typescript files
  
  Right click on build directory where js extension files exist and mark it as excluded
- 
+ ![exclude-directory](resources/exclude-directory.png)
  
