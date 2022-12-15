@@ -86,5 +86,13 @@ https://github.com/nvm-sh/nvm
 `nvm install` => Call would then install dependencies in line with that version.
 
 
-
+## What is rc file stand for?
+ 
+ rc - run commands
+ 
+ .[program or binary name]rc
+ .eslintrc
+ .zshrc
+ .nvmrc
+ 
 
