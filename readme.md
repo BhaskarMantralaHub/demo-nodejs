@@ -90,9 +90,9 @@ https://github.com/nvm-sh/nvm
  
  rc - run commands
  
- .[program or binary name]rc
- .eslintrc
- .zshrc
- .nvmrc
+ * .[program or binary name]rc
+ * .eslintrc
+ * .zshrc
+ * .nvmrc
  
 
