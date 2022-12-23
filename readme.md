@@ -71,7 +71,16 @@ npm init @eslint/config
 
 `npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
 
-*******************
+-----
+
+**Specify Node Versions with package n**
+
+npm install -g n
+
+```shell
+> n ls
+node/19.3.0
+```
 
 **Specify Node Versions with .nvmrc (Node Version Manager)**
 
