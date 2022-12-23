@@ -77,10 +77,17 @@ npm init @eslint/config
 
 npm install -g n
 
+### Install node specific version with 'n'
+```shell
+sudo n 14
+```
+
 ```shell
 > n ls
 node/19.3.0
 ```
+
+https://www.npmjs.com/package/n
 
 **Specify Node Versions with .nvmrc (Node Version Manager)**
 
