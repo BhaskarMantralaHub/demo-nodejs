@@ -82,9 +82,20 @@ npm install -g n
 sudo n 14
 ```
 
+### List down all the available node vesions installed on machine
 ```shell
 > n ls
+node/14.21.2
 node/19.3.0
+```
+
+### Switch to specific version
+```shell
+> n
+  ο node/14.21.2
+  ο node/19.3.0
+
+#### Use up/down arrow keys to select a version, return key to install, d to delete, q to quit
 ```
 
 https://www.npmjs.com/package/n
