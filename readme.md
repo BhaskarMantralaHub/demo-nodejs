@@ -71,7 +71,34 @@ npm init @eslint/config
 
 `npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev`
 
-*******************
+-----
+
+**Specify Node Versions with package n**
+
+npm install -g n
+
+### Install node specific version with 'n'
+```shell
+sudo n 14
+```
+
+### List down all the available node vesions installed on machine
+```shell
+> n ls
+node/14.21.2
+node/19.3.0
+```
+
+### Switch to specific version
+```shell
+> n
+  ο node/14.21.2
+  ο node/19.3.0
+
+#### Use up/down arrow keys to select a version, return key to install, d to delete, q to quit
+```
+
+https://www.npmjs.com/package/n
 
 **Specify Node Versions with .nvmrc (Node Version Manager)**
 
@@ -86,5 +113,17 @@ https://github.com/nvm-sh/nvm
 `nvm install` => Call would then install dependencies in line with that version.
 
 
-
-
+## What is rc file stand for?
+ 
+ rc - run commands
+ 
+ * .[program or binary name]rc
+ * .eslintrc
+ * .zshrc
+ * .nvmrc
+ 
+## Jetbrains avoid finding JS extension files while working with Typescript files
+ 
+ Right click on build directory where js extension files exist and mark it as excluded
+ ![exclude-directory](resources/exclude-directory.png)
+ 
