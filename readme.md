@@ -127,3 +127,6 @@ https://github.com/nvm-sh/nvm
  Right click on build directory where js extension files exist and mark it as excluded
  ![exclude-directory](resources/exclude-directory.png)
  
+## useful npm packages
+
+[useful npm packages](useful-npm-packages.md)
