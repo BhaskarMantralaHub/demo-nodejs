@@ -5,4 +5,6 @@
     ``` nodejs
     npm outdated
     ```
-* 
+* npm cache
+
+* npm cache verify
