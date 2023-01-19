@@ -8,3 +8,4 @@
 * npm cache
 
 * npm cache verify
+* npm cache clean --force
